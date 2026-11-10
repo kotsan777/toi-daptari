@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="kk">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>Той дәптері</title>
+<style>
+:root{--bg:#F2F2F7;--card:#FFFFFF;--ink:#1C1C1E;--muted:#5E5E66;--line:#E3E3E8;--accent:#0B6E8C}
+@media (prefers-color-scheme:dark){:root{--bg:#000000;--card:#1C1C1E;--ink:#F2F2F7;--muted:#AEAEB2;--line:#38383A;--accent:#5AC8E8}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;-webkit-text-size-adjust:100%}
+main{max-width:680px;margin:0 auto;padding:32px 16px 48px}
+h1{font-size:32px;margin:0 0 4px}
+p{margin:0 0 16px;color:var(--muted)}
+h2{font-size:15px;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:.04em;margin:24px 0 8px}
+.card{background:var(--card);border-radius:14px;overflow:hidden}
+.card a{display:block;padding:14px 16px;color:var(--ink);text-decoration:none;border-top:1px solid var(--line)}
+.card a:first-child{border-top:0}
+.card a::after{content:"›";float:right;color:var(--muted)}
+</style>
+</head>
+<body>
+<main>
+<h1>Той дәптері</h1>
+<p>Той сыйлықтарының дәптері · Тетрадь подарков на тоях</p>
+<h2 lang="kk">Қазақша</h2>
+<div class="card" lang="kk">
+<a href="kk/privacy.html">Құпиялылық саясаты</a>
+<a href="kk/support.html">Қолдау</a>
+</div>
+<h2 lang="ru">Русский</h2>
+<div class="card" lang="ru">
+<a href="ru/privacy.html">Политика конфиденциальности</a>
+<a href="ru/support.html">Поддержка</a>
+</div>
+</main>
+</body>
+</html>
